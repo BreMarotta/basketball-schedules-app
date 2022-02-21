@@ -1,5 +1,25 @@
 {
     "games": [
-        {"stuff": "the stuff"}
+        {   "id": 0,
+            "team": "Bulls",
+            "opponent": "Timerwolves",
+            "location": "Pennsville",
+            "date": "February 19, 2022",
+            "time": "4:15"
+        },
+        {   "id": 1,
+            "team": "Rams",
+            "opponent": "Timerwolves",
+            "location": "Pennsville",
+            "date": "February 19, 2022",
+            "time": "4:15"
+        },
+        {   "id": 2,
+            "team": "Loki",
+            "opponent": "Timerwolves",
+            "location": "Pennsville",
+            "date": "February 19, 2022",
+            "time": "4:15"
+        }
     ]
 }

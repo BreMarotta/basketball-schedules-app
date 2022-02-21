@@ -2,23 +2,28 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
+    const linkStyles = {
+        marginRight: "20px",
+        color: "gray"
+    }
     return(
     <div
       style={{
+        background: 'black',
         borderBottom: "2px solid black",
         paddingBottom: "10px",
-        marginBottom: "12px",
       }}
+      
     >
-      <NavLink style={{ marginRight: "10px" }} to="/">
+      <NavLink style={linkStyles} activeStyle={{color: "white"}} to="/" exact>
         Home
       </NavLink>
-      <NavLink style={{ marginRight: "10px" }} to="/schedule">
+      <NavLink style={linkStyles} activeStyle={{color: "white"}}to="/schedule">
         Full Schedule
       </NavLink>
-      <NavLink style={{ marginRight: "10px" }} to="/schedule/:team">
+      {/* <NavLink style={linkStyles} activeStyle={{color: "white"}} to="/schedule/:team">
         Team
-      </NavLink>
+      </NavLink> */}
       
     </div>
     )
