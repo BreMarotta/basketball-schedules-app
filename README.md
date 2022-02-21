@@ -1,10 +1,7 @@
-# Getting Started with Create React App
+# Basketball Schedules App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### NEED TO WRITE ACTUAL READ ME!
 
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
