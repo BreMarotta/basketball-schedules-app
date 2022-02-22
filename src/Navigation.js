@@ -10,8 +10,9 @@ const Navigation = () => {
     <div
       style={{
         background: 'black',
-        borderBottom: "2px solid black",
-        paddingBottom: "10px",
+        borderTop: "10px solid black",
+        borderBottom: "10px solid black",
+        paddingBottom: "10px"
       }}
       
     >
@@ -21,9 +22,15 @@ const Navigation = () => {
       <NavLink style={linkStyles} activeStyle={{color: "white"}}to="/schedule">
         Full Schedule
       </NavLink>
-      {/* <NavLink style={linkStyles} activeStyle={{color: "white"}} to="/schedule/:team">
-        Team
-      </NavLink> */}
+      <NavLink style={linkStyles} activeStyle={{color: "white"}} to="/schedule/Caius">
+        Caius
+      </NavLink>
+      <NavLink style={linkStyles} activeStyle={{color: "white"}} to="/schedule/Nikeo">
+        Nikeo
+      </NavLink>
+      <NavLink style={linkStyles} activeStyle={{color: "white"}} to="/schedule/Littles">
+        Littles
+      </NavLink>
       
     </div>
     )
