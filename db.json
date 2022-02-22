@@ -55,22 +55,73 @@
             "location": "Pennsville",
             "date": "February 26, 2022",
             "time": "4:15"
+        },
+        {   "id": 8,
+            "home": "Timberwolves",
+            "guest": "Lakers",
+            "location": "Pennsville",
+            "date": "January 08, 2022",
+            "time": "12:30"
+        },
+        {   "id": 9,
+            "home": "Timberwolves",
+            "guest": "Supersonics",
+            "location": "Mt. Carmel",
+            "date": "January 15, 2022",
+            "time": "12:30"
+        },
+        {   "id": 10,
+            "home": "Timberwolves",
+            "guest": "Spurs",
+            "location": "Pennsville",
+            "date": "January 22, 2022",
+            "time": "1:45"
+        },
+        {   "id": 11,
+            "home": "Rockets",
+            "guest": "Timberwolves",
+            "location": "Pennsville",
+            "date": "January 29, 2022",
+            "time": "12:30"
+        },
+        {   "id": 12,
+            "home": "Bucks",
+            "guest": "Timberwolves",
+            "location": "Pennsville",
+            "date": "February 05, 2022",
+            "time": "12:30"
+        },
+        {   "id": 13,
+            "home": "Warriors",
+            "guest": "Timberwolves",
+            "location": "Mt. Carmel",
+            "date": "February 12, 2022",
+            "time": "12:30"
+        },
+        {   "id": 14,
+            "home": "Timberwolves",
+            "guest": "Clippers",
+            "location": "Mt. Carmel",
+            "date": "February 19, 2022",
+            "time": "12:30"
+        },
+        {   "id": 7,
+            "home": "Lakers",
+            "guest": "Timberwolves",
+            "location": "Mt. Carmel",
+            "date": "February 26, 2022",
+            "time": "1:45"
         }
     ],
     "teams": [
         {   "id": 0,
-            "teamA": "Bulls",
-            "teamB": "School",
-            "child": "Caius"
+            "team": "Bulls"
         },
         {   "id": 1,
-            "teamA": "Travel",
-            "teamB": "Timberwolves",
-            "child": "Nikeo"
+            "team": "Timberwolves"
         },
         {   "id": 2,
-            "teamA": "Eagles",
-            "child": "Littles"
+            "team": "Eagles"
         }
     ]
 }

@@ -1,46 +1,35 @@
 import React, { useState, useEffect } from "react"
+import { MyConsumer } from './MyContext'
 import Child from './Child'
+import TeamLink from './TeamLink'
 
 
-const Schedule = () => {
+function Schedule() {
     const [schedule, setSchedule] = useState([])
-    
+    const [teams, setTeams] = useState ([])
 
+    useEffect(() => {
+        fetch('http://localhost:3004/teams')
+        .then(res => res.json())
+        .then(data => {
+            setTeams(data)
+        })
+    }, [])
 
-
-useEffect(() => {
-    fetch('http://localhost:3004/games')
-    .then(res => res.json())
-    .then(data => setSchedule(data))
-}, [])
-
-//console.log(schedule)
-// const teamsList = teams.map(t => {
-//     return (
-//         <div>
-//             <ChildLink teamA={t.teamA} teamB={t.teamB} child={t.child}/>
-//         </div>
-//         )})
-
-const fullSchedule = schedule.map(game => {
-    return (
+const teamsList = teams.map(t => <TeamLink key={t.id}team={t.team}/>)
+//console.log(teamsList)
+return(
     <div>
-        <h3>{game.guest} @ {game.home}</h3>
-        <a>Location: {game.location}</a>
-        <a> Time: {game.time}</a>
-        <a>{game.date}</a>
-        <hr />
-    </div>
-    )
-})
-    return (
-        <div>
-            <h1>Schedule of All Games</h1>
-            {/* {teamsList} */}
-            {fullSchedule}
+        {teamsList}
+        <MyConsumer>
+            {context => 
+            <div>
+                <div>{context.allGames}</div>
+            </div>
+            }
             
-        </div>
-    )
+        </MyConsumer>
+    </div>
+)
 }
-
 export default Schedule
