@@ -5,7 +5,6 @@ import TeamLink from './TeamLink'
 
 
 function Schedule() {
-    const [schedule, setSchedule] = useState([])
     const [teams, setTeams] = useState ([])
 
     useEffect(() => {
@@ -17,7 +16,6 @@ function Schedule() {
     }, [])
 
 const teamsList = teams.map(t => <TeamLink key={t.id}team={t.team}/>)
-//console.log(teamsList)
 return(
     <div>
         {teamsList}

@@ -4,7 +4,7 @@ import Home from './Home'
 import Navigation from './Navigation'
 import Schedule from './Schedule'
 import Child from './Child'
-import TestContext from './TestContext'
+import Rules from './Rules'
 
 function App() {
   return (
@@ -14,9 +14,9 @@ function App() {
         <hr/>
         <Switch>
           <Route exact path="/" component={Home}/>
+          <Route exact path="/rules" component={Rules}/>
           <Route exact path="/schedule" component={Schedule}/>
           <Route path="/schedule/:id" component={Child}/>
-          <Route path="/test" component={TestContext}/>
           {/* <Route exact path="/schedule/new" component={NewGameForm} /> */}
 
         </Switch>
