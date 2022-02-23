@@ -9,7 +9,6 @@ const TeamLink = (props) => {
         background: "black"
     }
 
-    console.log(props)
     return (
         <Link to={`/schedule/${props.team}`}>
             <button style={linkStyles}>{props.team}</button>

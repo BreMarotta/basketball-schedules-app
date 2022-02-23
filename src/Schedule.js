@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react"
 import { MyConsumer } from './MyContext'
-import Child from './Child'
+import Team from './Team'
 import TeamLink from './TeamLink'
+import AddGameButton from './AddGameButton'
 
 
 function Schedule() {
@@ -19,6 +20,8 @@ const teamsList = teams.map(t => <TeamLink key={t.id}team={t.team}/>)
 return(
     <div>
         {teamsList}
+        <br/>
+        <AddGameButton />
         <MyConsumer>
             {context => 
             <div>
@@ -27,6 +30,7 @@ return(
             }
             
         </MyConsumer>
+
     </div>
 )
 }

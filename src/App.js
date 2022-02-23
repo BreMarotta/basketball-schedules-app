@@ -3,8 +3,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './Home'
 import Navigation from './Navigation'
 import Schedule from './Schedule'
-import Child from './Child'
+import Team from './Team'
 import Rules from './Rules'
+import NewGameForm from './NewGameForm'
+
 
 function App() {
   return (
@@ -16,8 +18,9 @@ function App() {
           <Route exact path="/" component={Home}/>
           <Route exact path="/rules" component={Rules}/>
           <Route exact path="/schedule" component={Schedule}/>
-          <Route path="/schedule/:id" component={Child}/>
-          {/* <Route exact path="/schedule/new" component={NewGameForm} /> */}
+          <Route exact path="/schedule/new" component={NewGameForm} />
+          <Route path="/schedule/:id" component={Team}/>
+          
 
         </Switch>
       </div>

@@ -22,8 +22,22 @@ const MyProvider = (props) => {
             </div>
             )
         })
+    
+    // const filteredGames = games.map(g => {
+    //     if(g.home === team) {
+    //         return (
+    //             <div key={g.id}>
+    //                 <h3>{g.guest} @ {g.home}</h3>
+    //                 <a>Location: {g.location}</a>
+    //                 <a> Time: {g.time}</a>
+    //                 <a>{g.date}</a>
+    //                 <hr />
+    //             </div>
+    //         )
+    //     }
+    // })
+    
 
-    console.log(games)
     return (
         <MyContext.Provider value={{
             allGames: allGames

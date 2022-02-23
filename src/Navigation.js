@@ -24,17 +24,7 @@ const Navigation = () => {
       </NavLink>
       <NavLink style={linkStyles} activeStyle={{color: "white"}}to="/schedule">
         Full Schedule
-      </NavLink>
-      {/* <NavLink style={linkStyles} activeStyle={{color: "white"}} to="/schedule/Caius">
-        Caius
-      </NavLink>
-      <NavLink style={linkStyles} activeStyle={{color: "white"}} to="/schedule/Nikeo">
-        Nikeo
-      </NavLink>
-      <NavLink style={linkStyles} activeStyle={{color: "white"}} to="/schedule/Littles">
-        Littles
-      </NavLink> */}
-      
+      </NavLink>   
     </div>
     )
 }
