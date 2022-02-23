@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react' 
 
-function NewGameForm() {
+function NewGameForm({ teams }) {
     const [newGame, setNewGame] = useState({
         home: '',
         guest: '',
@@ -9,7 +9,8 @@ function NewGameForm() {
         time: '',
         played: false
     })
-
+    console.log(teams)
+    
     const handleChange = (e) => {
         setNewGame({
             ...newGame, [e.target.name]: e.target.value

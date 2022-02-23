@@ -16,12 +16,13 @@ function Schedule() {
         })
     }, [])
 
-const teamsList = teams.map(t => <TeamLink key={t.id}team={t.team}/>)
+const teamsLinks = teams.map(t => <TeamLink key={t.id}team={t.team}/>)
+const teamsList = teams.map(t => t.team)
 return(
     <div>
-        {teamsList}
+        {teamsLinks}
         <br/>
-        <AddGameButton />
+        <AddGameButton teamsList={teamsList}/>
         <MyConsumer>
             {context => 
             <div>
