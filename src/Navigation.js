@@ -3,15 +3,15 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
     const linkStyles = {
-        marginRight: "20px",
+        marginLeft: "15px",
         color: "gray"
     }
     return(
     <div
       style={{
-        background: 'black',
-        borderTop: "10px solid black",
-        borderBottom: "10px solid black",
+        background: '#2F4F4F',
+        borderTop: "10px solid #2F4F4F",
+        borderBottom: "10px solid #2F4F4F",
         paddingBottom: "10px"
       }}
       
@@ -24,7 +24,7 @@ const Navigation = () => {
       </NavLink>
       <NavLink style={linkStyles} activeStyle={{color: "white"}}to="/schedule">
         Full Schedule
-      </NavLink>   
+      </NavLink>  
     </div>
     )
 }

@@ -24,6 +24,21 @@
         },
         {   "id": 2,
             "team": "Eagles"
+        },
+        {   "id": 3,
+            "team": "Warriors"
+        }
+    ],
+    "locations": [
+        {   "id": 0,
+            "name": "Centreplex",
+            "address1": "100 Fuck You Way",
+            "address2": "Fuck You Yet again, 15666"
+        },
+        {   "id": 1,
+            "name": "Yeppers",
+            "address1": "200 Fuck You Way",
+            "address2": "Fuck You Yet again, 15666"
         }
     ]
 }

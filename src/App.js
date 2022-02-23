@@ -20,6 +20,8 @@ function App() {
           <Route exact path="/schedule" component={Schedule}/>
           <Route exact path="/schedule/new" component={NewGameForm} />
           <Route path="/schedule/:id" component={Team}/>
+          <Route path="/home/:id" component={Location}/>
+          
           
 
         </Switch>

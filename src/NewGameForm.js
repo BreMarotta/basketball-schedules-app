@@ -10,7 +10,7 @@ function NewGameForm({ teams }) {
         played: false
     })
     console.log(teams)
-    
+
     const handleChange = (e) => {
         setNewGame({
             ...newGame, [e.target.name]: e.target.value
@@ -20,10 +20,10 @@ function NewGameForm({ teams }) {
     const formStyles = {
 
         color: "white",
-        background: "#6495ED",
-        borderBottom: "25px solid #6495ED",
-        borderTop: "25px solid #6495ED",
-        borderLeft: "35px solid #6495ED",
+        background: "#2F4F4F",
+        borderBottom: "25px solid #2F4F4F",
+        borderTop: "25px solid #2F4F4F",
+        borderLeft: "35px solid #2F4F4F",
         borderRadius: "15px"
     }
     const inputStyles = {
@@ -45,7 +45,8 @@ function NewGameForm({ teams }) {
                 <select id ="home" name="home" onChange={handleChange}type="text" style={inputStyles}><br/>
                     <option value="Vikings">Vikings</option>
                     <option value="Plum">Plum</option>
-                </select><br/>
+                </select>
+                <br/>
                 <label>Visiting Team: </label><br/>
                 <input name="guest" onChange={handleChange}type="text" style={inputStyles}/><br/>
                 <label>Location:</label><br/>

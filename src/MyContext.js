@@ -4,7 +4,6 @@ const MyContext = React.createContext()
 
 const MyProvider = (props) => {
     const [games, setGames] = useState([{}])
-    const [teams, setTeams] = useState ([])
 
     useEffect(() => {
         fetch('http://localhost:3004/games')
@@ -18,7 +17,7 @@ const MyProvider = (props) => {
     const allGames = games.map(game => {
         return (
         <div key={game.id}>
-            <h3 style={{marginLeft: "15px"}}>{game.guest} @ {game.home}</h3>
+            <h3 style={{marginLeft: "5px"}}>{game.guest} @ {game.home}</h3>
             <a style={{marginLeft: "25px"}}>Location: {game.location}</a>
             <a style={{marginLeft: "25px"}}> Time: {game.time}</a>
             <a style={{marginLeft: "25px"}}>{game.date}</a>
@@ -26,6 +25,23 @@ const MyProvider = (props) => {
         </div>
         )
     })
+    const [teams, setTeams] = useState ([])
+
+    useEffect(() => {
+        fetch('http://localhost:3004/teams')
+        .then(res => res.json())
+        .then(data => {
+            setTeams(data)
+        })
+    }, [])
+ 
+    const [locations, setLocations] = useState([])
+     
+    useEffect(() => {
+        fetch('http://localhost:3004/locations')
+        .then(res => res.json())
+        .then(data => setLocations(data))
+    }, [])
 
     // const filteredGames = games.map(g => {
     //     if(g.home === team) {
@@ -44,7 +60,9 @@ const MyProvider = (props) => {
 
     return (
         <MyContext.Provider value={{
-            allGames: allGames
+            allGames: allGames,
+            teams: teams,
+            locations: locations
         }}>
             {props.children}
         </MyContext.Provider>

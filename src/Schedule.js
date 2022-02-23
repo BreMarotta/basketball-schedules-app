@@ -6,31 +6,22 @@ import AddGameButton from './AddGameButton'
 
 
 function Schedule() {
-    const [teams, setTeams] = useState ([])
-
-    useEffect(() => {
-        fetch('http://localhost:3004/teams')
-        .then(res => res.json())
-        .then(data => {
-            setTeams(data)
-        })
-    }, [])
-
-const teamsLinks = teams.map(t => <TeamLink key={t.id}team={t.team}/>)
-const teamsList = teams.map(t => t.team)
+    
 return(
-    <div>
-        {teamsLinks}
+    <div style={{paddingLeft: "35px", paddingRight: "50px"}}>
+        {/* {teamsLinks} */}
         <br/>
-        <AddGameButton teamsList={teamsList}/>
+        <AddGameButton />
         <MyConsumer>
             {context => 
             <div>
+                <div>{context.teams.map(t => <TeamLink key={t.id}team={t.team}/>)}</div>
                 <div>{context.allGames}</div>
             </div>
             }
             
         </MyConsumer>
+        
 
     </div>
 )
