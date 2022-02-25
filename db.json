@@ -5,14 +5,20 @@
             "guest": "Grizzlies",
             "location": "Pennsville",
             "date": "01/22/22",
-            "time": "4:15"
+            "time": "4:15",
+            "homeScore": "",
+            "guestScore": "",
+            "played": false
         },
         {   "id": 1,
             "home": "Bulls",
             "guest": "Cavaliers",
             "location": "Pennsville",
             "date": "01/15/22",
-            "time": "4:15"
+            "time": "4:15",
+            "homeScore": "",
+            "guestScore": "",
+            "played": false
         }
     ],
     "teams": [

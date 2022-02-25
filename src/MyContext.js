@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react' 
+import React, { useState, useEffect, useCallback } from 'react' 
 
 const MyContext = React.createContext()
 
@@ -11,10 +11,46 @@ const MyProvider = (props) => {
         .then(data => setGames(data))
     }, [])
 
+    const [scores, setScores] = useState({
+        homeScore: "",
+        guestScores: ""
+    })
+    const [showFormStyle, setShowFormStyle] = useState('none')
+
+    const handleChange = (e) => {
+        setScores({
+            ...scores, [e.target.name]: e.target.value
+        })
+    }
+
+    const toggleForm = () => {
+
+        let newStyle= showFormStyle == 'none' ?  '' :  'none'
+        console.log(newStyle)
+        setShowFormStyle(newStyle)
+     }
+     console.log(showFormStyle)
+    //console.log(scores)
+    // const handleScores = (e) => {
+    //     e.preventdefault()
+    //     return(
+    //         console.log(e)
+    //     )
+    // }
+        
     const allGames = games.map(game => {
         return (
         <div key={game.id}>
-            <h3 style={{marginLeft: "5px"}}>{game.guest} @ {game.home}</h3>
+            <h3 style={{marginLeft: "5px"}}>{game.guest} {game.guestScore} @ {game.home} {game.homeScore}</h3>
+            <button onClick={toggleForm}>Add Scores</button>
+                <form style={{display: showFormStyle}}>
+                    <label>Home Team Score: </label>
+                    <input name="homeScore" type="text" onChange={handleChange}/><br/>
+                    <label>Visiting Team Score: </label>
+                    <input name="guestScore" type="text" onChange={handleChange} /><br/>
+                    <input type="submit"/>
+                </form>
+            
             <a style={{marginLeft: "25px"}}>Location: {game.location}</a>
             <a style={{marginLeft: "25px"}}> Time: {game.time}</a>
             <a style={{marginLeft: "25px"}}>{game.date}</a>
@@ -85,7 +121,7 @@ const MyProvider = (props) => {
     //     }
     
     
-    console.log(games)
+
 
     return (
         <MyContext.Provider value={{
