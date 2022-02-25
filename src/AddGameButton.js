@@ -7,8 +7,7 @@ const AddGameButton = ({ teams }) => {
         color: "white",
         background: "black"
     }
-
-    console.log(teams)
+    
     return (
         <Link to={'/schedule/new'}>
             <button style={linkStyles}>Add Game to Schedule</button>

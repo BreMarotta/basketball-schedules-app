@@ -19,8 +19,8 @@ const Navigation = () => {
       <NavLink style={linkStyles} activeStyle={{color: "white"}} to="/" exact>
         Home
       </NavLink>
-      <NavLink style={linkStyles} activeStyle={{color: "white"}} to="/rules" exact>
-        League Rules
+      <NavLink style={linkStyles} activeStyle={{color: "white"}} to="/locations" exact>
+        Locations
       </NavLink>
       <NavLink style={linkStyles} activeStyle={{color: "white"}}to="/schedule">
         Full Schedule

@@ -1,4 +1,4 @@
-import React, { useState } from 'react' 
+import React from 'react' 
 import { MyConsumer } from './MyContext'
 
 const Team = (props) => {
@@ -7,8 +7,25 @@ const Team = (props) => {
 
     return(
         <div>
-            <h1>{teamName}</h1>
-        </div>
+            <h4>{teamName}</h4>
+            {/* <MyConsumer>
+                {context => 
+                <div>
+                    <div>{context.games.filter(g => g.home = {teamName}
+                        return (
+                                            <div key={g.id}>
+                                                <h3>{g.guest} @ {g.home}</h3>
+                                                <a>Location: {g.location}</a>
+                                                <a> Time: {g.time}</a>
+                                                <a>{g.date}</a>
+                                                <hr />
+                                            </div>)}</div>
+                </div>
+                }
+                 
+
+            </MyConsumer> */}
+    </div>
     )
 }
 

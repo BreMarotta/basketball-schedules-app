@@ -10,7 +10,7 @@ const LocationLink = (props) => {
     }
 
     return (
-        <Link to={`/home/${props.location}`}>
+        <Link to={`/${props.location}`}>
             <button style={linkStyles}>{props.location}</button>
         </Link>
     )

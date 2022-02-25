@@ -1,14 +1,22 @@
 import React, { useState } from 'react' 
 import { MyConsumer } from './MyContext'
 
-const Location = (props) => {
-    const locationName=(props.match.params.id)
+const Location = () => {
+
    
 
     return(
         <div>
-            <h1>Hello from Location page</h1>
+            <h1>Hello from Location Page</h1>
         </div>
+        // <MyConsumer>
+        //     {context => 
+        //     <div>
+        //         <div>{context.locations.map(l => <LocationLink key={l.name} location={l.name}/>)}</div>
+        //     </div>
+        //     }
+            
+        // </MyConsumer>
     )
 }
 

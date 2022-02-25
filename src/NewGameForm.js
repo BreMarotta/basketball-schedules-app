@@ -36,7 +36,6 @@ function NewGameForm({ teams }) {
         e.preventDefault()
         console.log(e)
     }
-    console.log(newGame)
 
     return (
         <div>

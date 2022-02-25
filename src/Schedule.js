@@ -9,7 +9,6 @@ function Schedule() {
     
 return(
     <div style={{paddingLeft: "35px", paddingRight: "50px"}}>
-        {/* {teamsLinks} */}
         <br/>
         <AddGameButton />
         <MyConsumer>
