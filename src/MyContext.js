@@ -15,9 +15,11 @@ const MyProvider = (props) => {
         homeScore: "",
         guestScores: ""
     })
+
     const [showFormStyle, setShowFormStyle] = useState('none')
     
-    const toggleForm = () => {
+    const toggleForm = (e) => {
+        console.log(e)
         let newStyle= showFormStyle == 'none' ?  '' :  'none'
         setShowFormStyle(newStyle)
      }
@@ -33,9 +35,7 @@ const MyProvider = (props) => {
  
     const handleSubmit = (e) => {
         e.preventDefault()
-        const id =(e.target.name)
-        console.log(id)
-        // console.log(scores)
+
         const configurationObject = {
             method: "PATCH",
             headers: {
@@ -44,9 +44,9 @@ const MyProvider = (props) => {
             },
             body: JSON.stringify(scores),
         };
-        fetch(`http://localhost:3004/games/${id}`, configurationObject)
+        fetch(`http://localhost:3004/games/${e.target.name}`, configurationObject)
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(window.location.reload(false))
     }
         
     const allGames = games.map(game => {
@@ -115,9 +115,14 @@ const MyProvider = (props) => {
         </div>
         )
     })
+    
+    const handleLocationSubmit = (e) => {
+        e.preventDefault()
+        console.log(e)
+    }
 
     // const filter = (teamName) => {
-    //     const filteredGames = games.filter(g => {
+    //     const filteredGames = allGames.filter(g => {
     //         teamName === g.home || g.guest
     //             return (
     //                 <div key={g.id}>
@@ -139,7 +144,8 @@ const MyProvider = (props) => {
             allGames: allGames,
             teams: teams,
             allLocations: allLocations,
-            games: games
+            games: games,
+            handleLocationSubmit: handleLocationSubmit
         }}>
             {props.children}
         </MyContext.Provider>

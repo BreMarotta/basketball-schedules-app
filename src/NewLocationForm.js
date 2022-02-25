@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useCallback } from 'react' 
+import React, { useState } from 'react' 
+import { MyConsumer } from './MyContext'
 
 function NewLocationForm() {
     const [newLocation, setNewLocation] = useState({
@@ -29,24 +30,26 @@ function NewLocationForm() {
         width: "350px"
     }
 
-    const handleSubmit = (e) => {
-        e.preventDefault()
-        console.log(e)
-    }
+ 
 
     return (
-        <div>
-            <form onSubmit={handleSubmit} style={formStyles}>
-                <label>Location Name: </label><br/>
-                <input name="name" onChange={handleChange}type="text" style={inputStyles}/><br/>
-                <br/>
-                <label>Address Line 1: </label><br/>
-                <input name="address1" onChange={handleChange}type="text" style={inputStyles}/><br/>
-                <label>Address Line 2:</label><br/>
-                <input name="address2" onChange={handleChange}type="text" style={inputStyles}/><br/>
-                <input type="submit"/>
-            </form> 
-        </div>
+        <MyConsumer>
+            {context => 
+            <div>
+                <form onSubmit={context.handleLocationSubmit} style={formStyles}>
+                    <label>Location Name: </label><br/>
+                    <input name="name" onChange={handleChange}type="text" style={inputStyles}/><br/>
+                    <br/>
+                    <label>Address Line 1: </label><br/>
+                    <input name="address1" onChange={handleChange}type="text" style={inputStyles}/><br/>
+                    <label>Address Line 2:</label><br/>
+                    <input name="address2" onChange={handleChange}type="text" style={inputStyles}/><br/>
+                    <input type="submit"/>
+                </form> 
+            </div>
+            }
+            
+        </MyConsumer>
     )
 }
 
