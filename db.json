@@ -1,50 +1,58 @@
 {
-    "games": [
-        {   "id": 0,
-            "home": "Bulls",
-            "guest": "Grizzlies",
-            "location": "Pennsville",
-            "date": "01/22/22",
-            "time": "4:15",
-            "homeScore": "",
-            "guestScore": "",
-            "played": false
-        },
-        {   "id": 1,
-            "home": "Bulls",
-            "guest": "Cavaliers",
-            "location": "Pennsville",
-            "date": "01/15/22",
-            "time": "4:15",
-            "homeScore": "",
-            "guestScore": "",
-            "played": false
-        }
-    ],
-    "teams": [
-        {   "id": 0,
-            "team": "Bulls"
-        },
-        {   "id": 1,
-            "team": "Timberwolves"
-        },
-        {   "id": 2,
-            "team": "Eagles"
-        },
-        {   "id": 3,
-            "team": "Warriors"
-        }
-    ],
-    "locations": [
-        {   "id": 0,
-            "name": "Centreplex",
-            "address1": "100 Fuck You Way",
-            "address2": "Fuck You Yet again, 15666"
-        },
-        {   "id": 1,
-            "name": "Yeppers",
-            "address1": "200 Fuck You Way",
-            "address2": "Fuck You Yet again, 15666"
-        }
-    ]
+  "games": [
+    {
+      "id": 0,
+      "home": "Bulls",
+      "guest": "Grizzlies",
+      "location": "Pennsville",
+      "date": "01/22/22",
+      "time": "4:15",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 1,
+      "home": "Bulls",
+      "guest": "Cavaliers",
+      "location": "Pennsville",
+      "date": "01/15/22",
+      "time": "4:15",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    }
+  ],
+  "teams": [
+    {
+      "id": 0,
+      "team": "Bulls"
+    },
+    {
+      "id": 1,
+      "team": "Timberwolves"
+    },
+    {
+      "id": 2,
+      "team": "Eagles"
+    },
+    {
+      "id": 3,
+      "team": "Warriors"
+    }
+  ],
+  "locations": [
+    {
+      "id": 0,
+      "name": "Centreplex",
+      "address1": "100 Fuck You Way",
+      "address2": "Fuck You Yet again, 15666"
+    },
+    {
+      "id": 1,
+      "name": "Yeppers",
+      "address1": "200 Fuck You Way",
+      "address2": "Fuck You Yet again, 15666"
+    }
+  ]
 }

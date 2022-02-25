@@ -16,34 +16,45 @@ const MyProvider = (props) => {
         guestScores: ""
     })
     const [showFormStyle, setShowFormStyle] = useState('none')
+    
+    const toggleForm = () => {
+        let newStyle= showFormStyle == 'none' ?  '' :  'none'
+        setShowFormStyle(newStyle)
+     }
 
     const handleChange = (e) => {
+        console.log(scores)
         setScores({
-            ...scores, [e.target.name]: e.target.value
+            ...scores, 
+            [e.target.name]: e.target.value
         })
     }
 
-    const toggleForm = () => {
-
-        let newStyle= showFormStyle == 'none' ?  '' :  'none'
-        console.log(newStyle)
-        setShowFormStyle(newStyle)
-     }
-     console.log(showFormStyle)
-    //console.log(scores)
-    // const handleScores = (e) => {
-    //     e.preventdefault()
-    //     return(
-    //         console.log(e)
-    //     )
-    // }
+ 
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        const id =(e.target.name)
+        console.log(id)
+        // console.log(scores)
+        const configurationObject = {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
+            },
+            body: JSON.stringify(scores),
+        };
+        fetch(`http://localhost:3004/games/${id}`, configurationObject)
+        .then(res => res.json())
+        .then(data => console.log(data))
+    }
         
     const allGames = games.map(game => {
         return (
         <div key={game.id}>
             <h3 style={{marginLeft: "5px"}}>{game.guest} {game.guestScore} @ {game.home} {game.homeScore}</h3>
             <button onClick={toggleForm}>Add Scores</button>
-                <form style={{display: showFormStyle}}>
+                <form name={game.id} style={{display: showFormStyle}} onSubmit={handleSubmit}>
                     <label>Home Team Score: </label>
                     <input name="homeScore" type="text" onChange={handleChange}/><br/>
                     <label>Visiting Team Score: </label>
