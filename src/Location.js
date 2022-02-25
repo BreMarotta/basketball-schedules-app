@@ -1,5 +1,6 @@
 import React, { useState } from 'react' 
 import { MyConsumer } from './MyContext'
+import AddLocationButton from './AddLocationButton'
 
 const Location = () => {
 
@@ -8,7 +9,7 @@ const Location = () => {
     return(
         <div>
             <h1>Hello from Location Page</h1>
-        
+        <AddLocationButton />
         <MyConsumer>
             {context => 
             <div>

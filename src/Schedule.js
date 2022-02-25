@@ -1,7 +1,6 @@
 import React from "react"
 import { MyConsumer } from './MyContext'
 import TeamLink from './TeamLink'
-import AddGameButton from './AddGameButton'
 
 
 function Schedule() {
@@ -9,7 +8,6 @@ function Schedule() {
 return(
     <div style={{paddingLeft: "35px", paddingRight: "50px"}}>
         <br/>
-        <AddGameButton />
         <MyConsumer>
             {context => 
             <div>

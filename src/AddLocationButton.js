@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const AddGameButton = ({ teams }) => {
+const AddLocationButton = ({ teams }) => {
     const linkStyles = {
         marginRight: "10px",
         color: "white",
@@ -9,10 +9,10 @@ const AddGameButton = ({ teams }) => {
     }
     
     return (
-        <Link to={'/schedule/new'}>
-            <button style={linkStyles}>Add Game to Schedule</button>
+        <Link to={'/location/new'}>
+            <button style={linkStyles}>Add Location to League</button>
         </Link>
     )
 }
 
-export default AddGameButton
+export default AddLocationButton

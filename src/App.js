@@ -4,7 +4,7 @@ import Home from './Home'
 import Navigation from './Navigation'
 import Schedule from './Schedule'
 import Team from './Team'
-import NewGameForm from './NewGameForm'
+import NewLocationForm from './NewLocationForm'
 import Location from './Location'
 
 
@@ -18,7 +18,7 @@ function App() {
           <Route exact path="/" component={Home}/>
           <Route exact path="/locations" component={Location}/>
           <Route exact path="/schedule" component={Schedule}/>
-          <Route exact path="/schedule/new" component={NewGameForm} />
+          <Route exact path="/location/new" component={NewLocationForm} />
           <Route path="/schedule/:id" component={Team}/>
         </Switch>
       </div>
