@@ -8,15 +8,16 @@ const Location = () => {
     return(
         <div>
             <h1>Hello from Location Page</h1>
-        </div>
-        // <MyConsumer>
-        //     {context => 
-        //     <div>
-        //         <div>{context.locations.map(l => <LocationLink key={l.name} location={l.name}/>)}</div>
-        //     </div>
-        //     }
+        
+        <MyConsumer>
+            {context => 
+            <div>
+                <div>{context.allLocations}</div>
+            </div>
+            }
             
-        // </MyConsumer>
+        </MyConsumer>
+        </div>
     )
 }
 

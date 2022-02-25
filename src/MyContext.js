@@ -58,6 +58,17 @@ const MyProvider = (props) => {
         .then(data => setLocations(data))
     }, [])
 
+    const allLocations = locations.map(l => {
+        return (
+        <div key={l.id}>
+            <h3 style={{marginLeft: "5px"}}>{l.name}</h3>
+            <p style={{marginLeft: "25px"}}>Address: {l.address1}</p>
+            <p style={{marginLeft: "95px"}}>  {l.address2}</p>
+            <hr />
+        </div>
+        )
+    })
+
     // const filter = (teamName) => {
     //     const filteredGames = games.filter(g => {
     //         teamName === g.home || g.guest
@@ -80,7 +91,7 @@ const MyProvider = (props) => {
         <MyContext.Provider value={{
             allGames: allGames,
             teams: teams,
-            locations: locations,
+            allLocations: allLocations,
             games: games
         }}>
             {props.children}

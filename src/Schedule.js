@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 import { MyConsumer } from './MyContext'
-import Team from './Team'
 import TeamLink from './TeamLink'
 import AddGameButton from './AddGameButton'
 
