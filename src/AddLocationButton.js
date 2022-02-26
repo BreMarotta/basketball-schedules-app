@@ -6,6 +6,7 @@ const AddLocationButton = ({ teams }) => {
         marginRight: "10px",
         color: "white",
         background: "black"
+        
     }
     
     return (
