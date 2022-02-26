@@ -1,36 +1,33 @@
 import React, { useState } from "react"
-import { MyConsumer } from './MyContext'
-
 
 function Game(props) {
-
-    console.log(props.game)
+    const playedStatus = props.game.played === false ? "" : "none"
+    
     const [scores, setScores] = useState({
         homeScore: "",
-        guestScore: "",
-        played: true
+        guestScore: ""
     })
 
     const [showFormStyle, setShowFormStyle] = useState('none')
     
     const toggleForm = (e) => {
-        console.log(e)
         let newStyle= showFormStyle == 'none' ?  '' :  'none'
         setShowFormStyle(newStyle)
      }
 
     const handleChange = (e) => {
-        console.log(scores)
+        console.log(e)
         setScores({
             ...scores, 
-            [e.target.name]: e.target.value
+            [e.target.name]: e.target.value,
+            played: true
         })
     }
 
- 
     const handleSubmit = (e) => {
         e.preventDefault()
-
+        console.log(scores)
+        console.log(e.target.name)
         const configurationObject = {
             method: "PATCH",
             headers: {
@@ -43,11 +40,12 @@ function Game(props) {
         .then(res => res.json())
         .then(window.location.reload(false))
     }
+
 return(
     <div>
     <h3 style={{marginLeft: "5px"}}>{props.game.guest} {props.game.guestScore} @ {props.game.home} {props.game.homeScore}</h3>
-            <button onClick={toggleForm}>Add Scores</button>
-                <form name={props.id} style={{display: showFormStyle}} onSubmit={handleSubmit}>
+            <button style={{display: playedStatus}} onClick={toggleForm}>Add Scores</button>
+                <form name={props.game.id} style={{display: showFormStyle}} onSubmit={handleSubmit}>
                     <label>Home Team Score: </label>
                     <input name="homeScore" type="text" onChange={handleChange}/><br/>
                     <label>Visiting Team Score: </label>

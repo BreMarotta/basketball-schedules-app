@@ -12,15 +12,13 @@ return(
         <MyConsumer>
             {context => 
             <div>
-                <div>{context.teams.map(t => <TeamLink key={t.id}team={t.team}/>)}</div>
+                <div>{context.teams.map(t => 
+                    <TeamLink key={t.id}team={t.team}/>)}</div>
                 <div>{context.games.map(game =>
                     <Game key={game.id} game={game}/>)}</div>
             </div>
             }
-            
         </MyConsumer>
-        
-
     </div>
 )
 }
