@@ -21,11 +21,7 @@ const Location = () => {
         )
     })
     
-    const handleLocationSubmit = (e) => {
-        e.preventDefault()
-        console.log(e)
-    }
-   
+
 
     return(
         <div>

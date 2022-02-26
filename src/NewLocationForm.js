@@ -1,7 +1,7 @@
 import React, { useState } from 'react' 
 import { MyConsumer } from './MyContext'
 
-function NewLocationForm() {
+function NewLocationForm(props) {
     const [newLocation, setNewLocation] = useState({
         name: '',
         address1: '',
@@ -30,26 +30,40 @@ function NewLocationForm() {
         width: "350px"
     }
 
- 
+    const handleLocationSubmit = (e) => {
+        e.preventDefault()
+
+        const configurationObject = {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
+            },
+            body: JSON.stringify(newLocation),
+        };
+        fetch(`http://localhost:3004/locations`, configurationObject)
+        .then(res => res.json())
+        .then(data => {
+            console.log(data)
+            props.history.push('/locations')
+        })
+        }
+    
+   
 
     return (
-        <MyConsumer>
-            {context => 
-            <div>
-                <form onSubmit={context.handleLocationSubmit} style={formStyles}>
-                    <label>Location Name: </label><br/>
-                    <input name="name" onChange={handleChange}type="text" style={inputStyles}/><br/>
-                    <br/>
-                    <label>Address Line 1: </label><br/>
-                    <input name="address1" onChange={handleChange}type="text" style={inputStyles}/><br/>
-                    <label>Address Line 2:</label><br/>
-                    <input name="address2" onChange={handleChange}type="text" style={inputStyles}/><br/>
-                    <input type="submit"/>
-                </form> 
-            </div>
-            }
-            
-        </MyConsumer>
+        <div>
+            <form onSubmit={handleLocationSubmit} style={formStyles}>
+                <label>Location Name: </label><br/>
+                <input name="name" onChange={handleChange}type="text" style={inputStyles}/><br/>
+                <br/>
+                <label>Address Line 1: </label><br/>
+                <input name="address1" onChange={handleChange}type="text" style={inputStyles}/><br/>
+                <label>Address Line 2:</label><br/>
+                <input name="address2" onChange={handleChange}type="text" style={inputStyles}/><br/>
+                <input type="submit"/>
+            </form> 
+        </div>
     )
 }
 
