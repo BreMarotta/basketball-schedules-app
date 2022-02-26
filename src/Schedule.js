@@ -1,6 +1,7 @@
 import React from "react"
 import { MyConsumer } from './MyContext'
 import TeamLink from './TeamLink'
+import Game from './Game'
 
 
 function Schedule() {
@@ -12,7 +13,8 @@ return(
             {context => 
             <div>
                 <div>{context.teams.map(t => <TeamLink key={t.id}team={t.team}/>)}</div>
-                <div>{context.allGames}</div>
+                <div>{context.games.map(game =>
+                    <Game key={game.id} game={game}/>)}</div>
             </div>
             }
             

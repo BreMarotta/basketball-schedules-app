@@ -7,10 +7,9 @@
       "location": "Pennsville",
       "date": "01/22/22",
       "time": "4:15",
-      "homeScore": "73",
-      "guestScore": "76",
-      "played": false,
-      "guestScores": ""
+      "homeScore": "12",
+      "guestScore": "14",
+      "played": true
     },
     {
       "id": 1,
@@ -19,10 +18,9 @@
       "location": "Pennsville",
       "date": "01/15/22",
       "time": "4:15",
-      "homeScore": "12",
-      "guestScore": "54",
-      "played": false,
-      "guestScores": ""
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
     }
   ],
   "teams": [
