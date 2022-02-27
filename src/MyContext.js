@@ -11,23 +11,6 @@ const MyProvider = (props) => {
         .then(data => setGames(data))
     }, [])
 
-    // const teamGames = (team) => {
-    //     games.map(game => {
-    //         console.log(game)
-    //         if(team === game.home || game.guest){
-    //             return (
-    //                 <div key={game.id}>
-    //                     <h3 style={{marginLeft: "5px"}}>{game.guest} @ {game.home}</h3>
-    //                     <a style={{marginLeft: "25px"}}>Location: {game.location}</a>
-    //                     <a style={{marginLeft: "25px"}}> Time: {game.time}</a>
-    //                     <a style={{marginLeft: "25px"}}>{game.date}</a>
-    //                     <hr />
-    //                 </div>
-    //                 )
-    //         }
-    //     })
-    // }
-
     const [teams, setTeams] = useState ([])
 
     useEffect(() => {
@@ -37,29 +20,21 @@ const MyProvider = (props) => {
             setTeams(data)
         })
     }, [])
+
+    const [showGames, setShowGames] = useState([{}])
  
-    // const filter = (teamName) => {
-    //     const filteredGames = allGames.filter(g => {
-    //         teamName === g.home || g.guest
-    //             return (
-    //                 <div key={g.id}>
-    //                     <h3>{g.guest} @ {g.home}</h3>
-    //                     <a>Location: {g.location}</a>
-    //                     <a> Time: {g.time}</a>
-    //                     <a>{g.date}</a>
-    //                     <hr />
-    //                 </div>
-    //             )
-    //         })
-    //     }
-    
-    
-
-
+    const filterGames = (team) => {
+        console.log("Hi from filterGames")
+        const displayGames = games.filter(game => game.home == team || game.guest == team)
+        setShowGames(displayGames)
+        // displayGames.map(game => <Game key={game.id} game={game}/>)  
+        }
     return (
         <MyContext.Provider value={{
             teams: teams,
             games: games,
+            filterGames: filterGames,
+            showGames: showGames
         }}>
             {props.children}
         </MyContext.Provider>

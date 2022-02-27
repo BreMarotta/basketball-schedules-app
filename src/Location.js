@@ -13,7 +13,7 @@ const Location = () => {
     const allLocations = locations.map(l => {
         return (
         <div key={l.id} style={{paddingLeft: "35px", paddingRight: "50px"}}>
-            <h3 style={{marginLeft: "5px"}}>{l.name}</h3>
+            <h3 style={{marginLeft: "5px", background: "#DCDCDC"}}>{l.name}</h3>
             <p style={{marginLeft: "25px"}}>Address: {l.address1}</p>
             <p style={{marginLeft: "95px"}}>  {l.address2}</p>
             <hr />
@@ -25,7 +25,7 @@ const Location = () => {
 
     return(
         <div style={{paddingLeft: "35px", paddingRight: "50px"}}>
-            <h1>Hello from Location Page</h1>
+            <h1>Locations: </h1>
         <AddLocationButton />
         {allLocations}
         
