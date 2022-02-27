@@ -7,9 +7,9 @@
       "location": "Greensburg Central Catholic",
       "date": "November 28, 2021",
       "time": "2:30",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "32",
+      "guestScore": "76",
+      "played": true
     },
     {
       "id": 1,
@@ -45,7 +45,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 4,
       "home": "Ligonier Valley",
       "guest": "Derry",
       "location": "Centreplex",
@@ -56,7 +56,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 5,
       "home": "Ligonier Valley",
       "guest": "Mount Pleasant",
       "location": "Centreplex",
@@ -67,7 +67,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 6,
       "home": "Latrobe",
       "guest": "Hempfield",
       "location": "Latrobe High School",
@@ -78,7 +78,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 7,
       "home": "Plum",
       "guest": "Laurel Highlands",
       "location": "Greensburg Central Catholic",
@@ -89,7 +89,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 8,
       "home": "Plum",
       "guest": "Derry",
       "location": "Greensburg Central Catholic",
@@ -100,7 +100,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 9,
       "home": "Plum",
       "guest": "Connellsville",
       "location": "Greensburg Central Catholic",
@@ -111,7 +111,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 10,
       "home": "Franklin Regional",
       "guest": "Mount Pleasant",
       "location": "Centreplex",
@@ -122,7 +122,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 11,
       "home": "Mount Pleasant",
       "guest": "Penn Trafford",
       "location": "Greensburg Central Catholic",
@@ -133,7 +133,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 12,
       "home": "Laurel Highlands",
       "guest": "Mount Pleasant",
       "location": "Laurel Highlands Middle School",
@@ -144,7 +144,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 13,
       "home": "Laurel Highlands",
       "guest": "Connellsville",
       "location": "Laurel Highlands Middle School",
@@ -155,7 +155,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 14,
       "home": "Plum",
       "guest": "Hempfield",
       "location": "Greensburg Central Catholic",
@@ -166,7 +166,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 15,
       "home": "Indiania",
       "guest": "Mount Pleasant",
       "location": "Greensburg Central Catholic",
@@ -177,7 +177,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 16,
       "home": "Plum",
       "guest": "Laurel Highlands",
       "location": "Greensburg Central Catholic",
@@ -188,7 +188,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 17,
       "home": "Indiania",
       "guest": "Ligonier Valley",
       "location": "Greensburg Central Catholic",
@@ -199,7 +199,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 18,
       "home": "Derry",
       "guest": "Mount Pleasant",
       "location": "Derry Middle School",
@@ -210,7 +210,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 19,
       "home": "Ligonier Valley",
       "guest": "Hempfield",
       "location": "Greensburg Central Catholic",
@@ -221,7 +221,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 20,
       "home": "Latrobe",
       "guest": "Plum",
       "location": "Latrobe High School",
@@ -232,7 +232,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 21,
       "home": "Latrobe",
       "guest": "Penn Trafford",
       "location": "Latrobe High School",
@@ -243,7 +243,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 22,
       "home": "Plum",
       "guest": "Mount Pleasant",
       "location": "Centreplex",
@@ -254,7 +254,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 23,
       "home": "Franklin Regional",
       "guest": "Plum",
       "location": "Franklin Regional Middle School",
@@ -265,7 +265,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 24,
       "home": "Franklin Regional",
       "guest": "Hempfield",
       "location": "Franklin Regional Middle School",
@@ -276,7 +276,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 25,
       "home": "Plum",
       "guest": "Penn Trafford",
       "location": "Centreplex",
@@ -287,7 +287,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 26,
       "home": "Hempfield",
       "guest": "Derry",
       "location": "Derry Middle School",
@@ -298,7 +298,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 27,
       "home": "Mount Pleasant",
       "guest": "Derry",
       "location": "Derry Middle School",
@@ -309,7 +309,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 28,
       "home": "Franklin Regional",
       "guest": "Latrobe",
       "location": "Latrobe High School",
@@ -320,7 +320,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 29,
       "home": "Franklin Regional",
       "guest": "Laurel Highlands",
       "location": "Centreplex",
@@ -331,7 +331,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 30,
       "home": "Connellsville",
       "guest": "Latrobe",
       "location": "Latrobe High School",
@@ -342,7 +342,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 31,
       "home": "Plum",
       "guest": "Mount Pleasant",
       "location": "Centreplex",
@@ -353,7 +353,7 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 32,
       "home": "Penn Trafford",
       "guest": "Hempfield",
       "location": "Hempfield Field House",
@@ -364,12 +364,584 @@
       "played": false
     },
     {
-      "id": 3,
+      "id": 33,
       "home": "Latrobe",
       "guest": "Hempfield",
       "location": "Hempfield Field House",
       "date": "December 20, 2021",
       "time": "8:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 34,
+      "home": "Plum",
+      "guest": "Mount Pleasant",
+      "location": "Greensburg Central Catholic",
+      "date": "January 8, 2022",
+      "time": "2:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 35,
+      "home": "Plum",
+      "guest": "Derry",
+      "location": "Greensburg Central Catholic",
+      "date": "January 8, 2022",
+      "time": "4:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 36,
+      "home": "Laurel Highlands",
+      "guest": "Hempfield",
+      "location": "Laurel Highlands Middle School",
+      "date": "January 8, 2022",
+      "time": "4:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 37,
+      "home": "Laurel Highlands",
+      "guest": "Yough",
+      "location": "Laurel Highlands Middle School",
+      "date": "January 8, 2022",
+      "time": "6:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 38,
+      "home": "Ligonier Valley",
+      "guest": "Connellsville",
+      "location": "Greensburg Central Catholic",
+      "date": "January 8, 2022",
+      "time": "7:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 39,
+      "home": "Plum",
+      "guest": "Franklin Regional",
+      "location": "Greensburg Central Catholic",
+      "date": "January 9, 2022",
+      "time": "12:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 40,
+      "home": "Laurel Highlands",
+      "guest": "Franklin Regional",
+      "location": "Centreplex",
+      "date": "January 9, 2022",
+      "time": "12:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 41,
+      "home": "Penn Trafford",
+      "guest": "Mount Pleasant",
+      "location": "Centreplex",
+      "date": "January 9, 2022",
+      "time": "1:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 42,
+      "home": "Plum",
+      "guest": "Connellsville",
+      "location": "Centreplex",
+      "date": "January 9, 2022",
+      "time": "2:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 43,
+      "home": "Derry",
+      "guest": "Yough",
+      "location": "Derry Middle School",
+      "date": "January 9, 2022",
+      "time": "2:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 44,
+      "home": "Penn Trafford",
+      "guest": "Hempfield",
+      "location": "Greensburg Central Catholic",
+      "date": "January 9, 2022",
+      "time": "3:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 45,
+      "home": "Latrobe",
+      "guest": "Plum",
+      "location": "Latrobe High School",
+      "date": "January 9, 2022",
+      "time": "5:30",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 46,
+      "home": "Latrobe",
+      "guest": "Ligonier Valley",
+      "location": "Latrobe High School",
+      "date": "January 9, 2022",
+      "time": "8:30",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 47,
+      "home": "Franklin Regional",
+      "guest": "Mount Pleasant",
+      "location": "Franklin Regional Middle School",
+      "date": "January 15, 2022",
+      "time": "12:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 48,
+      "home": "Franklin Regional",
+      "guest": "Derry",
+      "location": "Franklin Regional Middle School",
+      "date": "January 15, 2022",
+      "time": "2:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 49,
+      "home": "Connellsville",
+      "guest": "Hempfield",
+      "location": "Greensburg Central Catholic",
+      "date": "January 15, 2022",
+      "time": "5:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 50,
+      "home": "Armstrong",
+      "guest": "Plum",
+      "location": "Greensburg Central Catholic",
+      "date": "January 16, 2022",
+      "time": "12:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 51,
+      "home": "Derry",
+      "guest": "Mount Pleasant",
+      "location": "Derry Middle School",
+      "date": "January 16, 2022",
+      "time": "1:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 52,
+      "home": "Yough",
+      "guest": "Ligonier Valley",
+      "location": "Centreplex",
+      "date": "January 16, 2022",
+      "time": "2:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 53,
+      "home": "Armstrong",
+      "guest": "Laurel Highlands",
+      "location": "Greensburg Central Catholic",
+      "date": "January 16, 2022",
+      "time": "2:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    }, 
+    {
+      "id": 54,
+      "home": "Plum",
+      "guest": "Ligonier Valley",
+      "location": "Greensburg Central Catholic",
+      "date": "January 16, 2022",
+      "time": "2:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 55,
+      "home": "Derry",
+      "guest": "Ligonier Valley",
+      "location": "Derry Middle School",
+      "date": "January 16, 2022",
+      "time": "3:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 56,
+      "home": "Penn Trafford",
+      "guest": "Latrobe",
+      "location": "Greensburg Central Catholic",
+      "date": "January 16, 2022",
+      "time": "5:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 57,
+      "home": "Penn Trafford",
+      "guest": "Connellsville",
+      "location": "Greensburg Central Catholic",
+      "date": "January 16, 2022",
+      "time": "6:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 58,
+      "home": "Hempfield",
+      "guest": "Latrobe",
+      "location": "Greensburg Central Catholic",
+      "date": "January 16, 2022",
+      "time": "6:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 59,
+      "home": "Ligonier Valley",
+      "guest": "Yough",
+      "location": "Centreplex",
+      "date": "January 22, 2022",
+      "time": "5:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 60,
+      "home": "Plum",
+      "guest": "Smithfield",
+      "location": "Centreplex",
+      "date": "January 22, 2022",
+      "time": "6:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 61,
+      "home": "Ligonier Valley",
+      "guest": "Plum",
+      "location": "Centreplex",
+      "date": "January 22, 2022",
+      "time": "7:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 62,
+      "home": "Latrobe",
+      "guest": "Hempfield",
+      "location": "Latrobe High School",
+      "date": "January 22, 2022",
+      "time": "8:30",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 63,
+      "home": "Armstrong",
+      "guest": "Laurel Highlands",
+      "location": "Greensburg Central Catholic",
+      "date": "January 23, 2022",
+      "time": "1:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 64,
+      "home": "Penn Trafford",
+      "guest": "Derry",
+      "location": "Greensburg Central Catholic",
+      "date": "January 23, 2022",
+      "time": "2:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 65,
+      "home": "Armstrong",
+      "guest": "Connellsville",
+      "location": "Greensburg Central Catholic",
+      "date": "January 23, 2022",
+      "time": "3:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 66,
+      "home": "Penn Trafford",
+      "guest": "Franklin Regional",
+      "location": "Greensburg Central Catholic",
+      "date": "January 23, 2022",
+      "time": "4:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 67,
+      "home": "Ligonier Valley",
+      "guest": "Hempfield",
+      "location": "Greensburg Central Catholic",
+      "date": "January 23, 2022",
+      "time": "5:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 68,
+      "home": "Latrobe",
+      "guest": "Laurel Highlands",
+      "location": "Latrobe High School",
+      "date": "January 23, 2022",
+      "time": "5:30",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 69,
+      "home": "Latrobe",
+      "guest": "Indiania",
+      "location": "Latrobe High School",
+      "date": "January 23, 2022",
+      "time": "6:30",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 70,
+      "home": "Latrobe",
+      "guest": "Franklin Regional",
+      "location": "Latrobe High School",
+      "date": "January 23, 2022",
+      "time": "7:30",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 71,
+      "home": "Latrobe",
+      "guest": "Yough",
+      "location": "Latrobe High School",
+      "date": "January 23, 2022",
+      "time": "8:30",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 72,
+      "home": "Plum",
+      "guest": "Hempfield",
+      "location": "Centreplex",
+      "date": "January 29, 2022",
+      "time": "9:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 73,
+      "home": "Franklin Regional",
+      "guest": "Penn Trafford",
+      "location": "Centreplex",
+      "date": "January 29, 2022",
+      "time": "10:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 74,
+      "home": "Plum",
+      "guest": "Hempfield",
+      "location": "Centreplex",
+      "date": "January 29, 2022",
+      "time": "11:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 75,
+      "home": "Plum",
+      "guest": "Connellsville",
+      "location": "Centreplex",
+      "date": "January 29, 2022",
+      "time": "1:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 76,
+      "home": "Latrobe",
+      "guest": "Derry",
+      "location": "Greensburg Central Catholic",
+      "date": "January 29, 2022",
+      "time": "6:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 77,
+      "home": "Latrobe",
+      "guest": "Ligonier Valley",
+      "location": "Greensburg Central Catholic",
+      "date": "January 29, 2022",
+      "time": "7:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 78,
+      "home": "Plum",
+      "guest": "Yough",
+      "location": "Centreplex",
+      "date": "January 30, 2022",
+      "time": "11:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 79,
+      "home": "Armstrong",
+      "guest": "Mount Pleasant",
+      "location": "Centreplex",
+      "date": "January 30, 2022",
+      "time": "12:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 80,
+      "home": "Indiania",
+      "guest": "Plum",
+      "location": "Centreplex",
+      "date": "January 30, 2022",
+      "time": "1:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 81,
+      "home": "Armstrong",
+      "guest": "Smithfield",
+      "location": "Centreplex",
+      "date": "January 30, 2022",
+      "time": "2:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 82,
+      "home": "Indiania",
+      "guest": "Connellsville",
+      "location": "Centreplex",
+      "date": "January 30, 2022",
+      "time": "3:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 83,
+      "home": "Penn Trafford",
+      "guest": "Laurel Highlands",
+      "location": "Greensburg Central Catholic",
+      "date": "January 30, 2022",
+      "time": "5:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 84,
+      "home": "Penn Trafford",
+      "guest": "Latrobe",
+      "location": "Greensburg Central Catholic",
+      "date": "January 30, 2022",
+      "time": "7:00",
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
+    },
+    {
+      "id": 85,
+      "home": "Penn Trafford",
+      "guest": "Laurel Highlands",
+      "location": "Greensburg Central Catholic",
+      "date": "January 30, 2022",
+      "time": "5:00",
       "homeScore": "",
       "guestScore": "",
       "played": false
@@ -404,7 +976,6 @@
       "id": 6,
       "team": "Laurel Highlands"
     },
-    
     {
       "id": 7,
       "team": "Ligonier Valley"
