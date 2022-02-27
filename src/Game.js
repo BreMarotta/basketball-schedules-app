@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 
 function Game(props) {
-    const playedStatus = props.game.played === false ? "" : "none"
+    const playedStatus = props.game.played === false ? "" : "hidden"
 
     const backgroundColor = props.game.played === false ? "whitesmoke" : "#DCDCDC"
     
@@ -46,7 +46,7 @@ function Game(props) {
 return(
     <div style={{background: backgroundColor, paddingTop: "1.5px"}}>
     <h3 style={{marginLeft: "5px"}}>{props.game.guest} {props.game.guestScore} @ {props.game.home} {props.game.homeScore}</h3>
-            <button style={{display: playedStatus}} onClick={toggleForm}>Add Scores</button>
+            <button style={{visibility: playedStatus}} onClick={toggleForm}>Add Scores</button>
                 <form name={props.game.id} style={{display: showFormStyle}} onSubmit={handleSubmit}>
                     <label>Home Team Score: </label>
                     <input name="homeScore" type="text" onChange={handleChange}/><br/>
