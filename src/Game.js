@@ -2,6 +2,8 @@ import React, { useState } from "react"
 
 function Game(props) {
     const playedStatus = props.game.played === false ? "" : "none"
+
+    const backgroundColor = props.game.played === false ? "" : "#DCDCDC"
     
     const [scores, setScores] = useState({
         homeScore: "",
@@ -42,7 +44,7 @@ function Game(props) {
     }
 
 return(
-    <div>
+    <div style={{background: backgroundColor}}>
     <h3 style={{marginLeft: "5px"}}>{props.game.guest} {props.game.guestScore} @ {props.game.home} {props.game.homeScore}</h3>
             <button style={{display: playedStatus}} onClick={toggleForm}>Add Scores</button>
                 <form name={props.game.id} style={{display: showFormStyle}} onSubmit={handleSubmit}>
