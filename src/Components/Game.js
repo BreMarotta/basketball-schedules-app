@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { MyContext } from './MyContext'
 
 function Game(props) {
     const playedStatus = props.game.played === false ? "" : "hidden"
@@ -17,7 +18,7 @@ function Game(props) {
      }
 
     const handleChange = (e) => {
-        console.log(e)
+        console.log(scores)
         setScores({
             ...scores, 
             [e.target.name]: e.target.value,
@@ -29,6 +30,7 @@ function Game(props) {
         e.preventDefault()
         console.log(scores)
         console.log(e.target.name)
+        debugger
         const configurationObject = {
             method: "PATCH",
             headers: {
@@ -39,7 +41,7 @@ function Game(props) {
         };
         fetch(`http://localhost:3004/games/${e.target.name}`, configurationObject)
         .then(res => res.json())
-        .then(window.location.reload(false))
+        .then(window.location.reload(true))
     }
 
 return(

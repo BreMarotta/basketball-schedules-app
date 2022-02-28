@@ -20,7 +20,6 @@ const Home = () => {
                 <li>Any player or coach ejected from a game will automatically be suspended from the next scheduled game. Any player       or coach receiving 2 game ejections in a season will be removed from the league</li>  
             </ul>
 
-            <hr/>
             <h4 style={{paddingLeft: "35px", paddingRight: "35px"}}>Zero Tolerance Policy - The league will hold firm to enforcing a zero tolerance policy with all players coaches parents or any fan in attendance of a game. Any complaint issued to the league will be thoroughly investigated. The league officers have the power to suspend or expel any person or persons disrupting league play.</h4>
 
         </div>

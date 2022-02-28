@@ -29,7 +29,7 @@ const Navigation = () => {
         Full Schedule
       </NavLink> 
       <div style={{marginRight: "75px",float: "right"}} >
-        <a>Show: </a>
+        <a>Switch to Show: </a>
         <button onClick={toggleGames}>{showAll ? "Upcoming Games" : "All Games"}</button>
       </div>
       

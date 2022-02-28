@@ -99,6 +99,12 @@
       "address1": "1010 Mountain View Drive",
       "address2": "Greensburg, PA 15601",
       "id": 8
+    },
+    {
+      "name": "Mt. Pleasant High School",
+      "address1": "State Street",
+      "address2": "Mount Pleasant, PA 15666",
+      "id": 9
     }
   ],
   "games": [
@@ -175,9 +181,9 @@
       "location": "Latrobe High School",
       "date": "December 4, 2021",
       "time": "7:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "32",
+      "guestScore": "54",
+      "played": true
     },
     {
       "id": 7,
@@ -186,9 +192,9 @@
       "location": "Greensburg Central Catholic",
       "date": "December 5, 2021",
       "time": "12:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "12",
+      "guestScore": "54",
+      "played": true
     },
     {
       "id": 8,
@@ -197,9 +203,9 @@
       "location": "Greensburg Central Catholic",
       "date": "December 5, 2021",
       "time": "1:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "32",
+      "guestScore": "76",
+      "played": true
     },
     {
       "id": 9,
@@ -219,9 +225,9 @@
       "location": "Centreplex",
       "date": "December 5, 2021",
       "time": "5:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "73",
+      "guestScore": "14",
+      "played": true
     },
     {
       "id": 11,
@@ -230,9 +236,9 @@
       "location": "Greensburg Central Catholic",
       "date": "December 5, 2021",
       "time": "5:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "73",
+      "guestScore": "14",
+      "played": true
     },
     {
       "id": 12,
@@ -241,9 +247,9 @@
       "location": "Laurel Highlands Middle School",
       "date": "December 11, 2021",
       "time": "4:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "15",
+      "guestScore": "32",
+      "played": true
     },
     {
       "id": 13,
@@ -252,9 +258,9 @@
       "location": "Laurel Highlands Middle School",
       "date": "December 11, 2021",
       "time": "6:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "44",
+      "guestScore": "54",
+      "played": true
     },
     {
       "id": 14,
@@ -263,9 +269,9 @@
       "location": "Greensburg Central Catholic",
       "date": "December 12, 2021",
       "time": "12:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "23",
+      "guestScore": "54",
+      "played": true
     },
     {
       "id": 15,
@@ -274,9 +280,9 @@
       "location": "Greensburg Central Catholic",
       "date": "December 12, 2021",
       "time": "12:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "73",
+      "guestScore": "76",
+      "played": true
     },
     {
       "id": 16,
@@ -285,9 +291,9 @@
       "location": "Greensburg Central Catholic",
       "date": "December 12, 2021",
       "time": "2:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "15",
+      "guestScore": "17",
+      "played": true
     },
     {
       "id": 17,
@@ -296,9 +302,9 @@
       "location": "Greensburg Central Catholic",
       "date": "December 12, 2021",
       "time": "2:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "32",
+      "guestScore": "76",
+      "played": true
     },
     {
       "id": 18,
@@ -307,9 +313,9 @@
       "location": "Derry Middle School",
       "date": "December 12, 2021",
       "time": "2:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "26",
+      "guestScore": "32",
+      "played": true
     },
     {
       "id": 19,
@@ -318,9 +324,9 @@
       "location": "Greensburg Central Catholic",
       "date": "December 12, 2021",
       "time": "4:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "44",
+      "guestScore": "14",
+      "played": true
     },
     {
       "id": 20,
@@ -329,9 +335,9 @@
       "location": "Latrobe High School",
       "date": "December 12, 2021",
       "time": "7:30",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "12",
+      "guestScore": "14",
+      "played": true
     },
     {
       "id": 21,
@@ -340,9 +346,9 @@
       "location": "Latrobe High School",
       "date": "December 12, 2021",
       "time": "8:30",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "32",
+      "guestScore": "32",
+      "played": true
     },
     {
       "id": 22,
@@ -351,9 +357,9 @@
       "location": "Centreplex",
       "date": "December 18, 2021",
       "time": "1:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "31",
+      "guestScore": "17",
+      "played": true
     },
     {
       "id": 23,
@@ -362,9 +368,9 @@
       "location": "Franklin Regional Middle School",
       "date": "December 18, 2021",
       "time": "1:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "12",
+      "guestScore": "14",
+      "played": true
     },
     {
       "id": 24,
@@ -373,9 +379,9 @@
       "location": "Franklin Regional Middle School",
       "date": "December 18, 2021",
       "time": "4:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "44",
+      "guestScore": "54",
+      "played": true
     },
     {
       "id": 25,
@@ -384,9 +390,9 @@
       "location": "Centreplex",
       "date": "December 19, 2021",
       "time": "12:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "23",
+      "guestScore": "17",
+      "played": true
     },
     {
       "id": 26,
@@ -395,9 +401,9 @@
       "location": "Derry Middle School",
       "date": "December 19, 2021",
       "time": "12:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "32",
+      "guestScore": "76",
+      "played": true
     },
     {
       "id": 27,
@@ -439,9 +445,9 @@
       "location": "Latrobe High School",
       "date": "December 19, 2021",
       "time": "6:30",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "12",
+      "guestScore": "14",
+      "played": true
     },
     {
       "id": 31,
@@ -527,9 +533,9 @@
       "location": "Greensburg Central Catholic",
       "date": "January 8, 2022",
       "time": "7:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "23",
+      "guestScore": "16",
+      "played": true
     },
     {
       "id": 39,
