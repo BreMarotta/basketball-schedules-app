@@ -1,11 +1,13 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+import { MyConsumer } from './MyContext'
 
 const Navigation = () => {
     const linkStyles = {
         marginLeft: "15px",
         color: "gray"
     }
+
     return(
     <div
       style={{
@@ -24,7 +26,13 @@ const Navigation = () => {
       </NavLink>
       <NavLink style={linkStyles} activeStyle={{color: "white"}}to="/schedule">
         Full Schedule
-      </NavLink>  
+      </NavLink> 
+      <MyConsumer>
+            {context => 
+            <div></div>
+                // <button style={{marginRight: "75px",float: "right"}} onClick={context.toggleGames}>Click Me!</button>
+            }
+        </MyConsumer>
     </div>
     )
 }

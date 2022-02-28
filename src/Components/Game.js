@@ -2,7 +2,6 @@ import React, { useState } from "react"
 
 function Game(props) {
     const playedStatus = props.game.played === false ? "" : "hidden"
-
     const backgroundColor = props.game.played === false ? "whitesmoke" : "#DCDCDC"
     
     const [scores, setScores] = useState({
@@ -12,7 +11,7 @@ function Game(props) {
 
     const [showFormStyle, setShowFormStyle] = useState('none')
     
-    const toggleForm = (e) => {
+    const toggleForm = () => {
         let newStyle= showFormStyle == 'none' ?  '' :  'none'
         setShowFormStyle(newStyle)
      }

@@ -1,37 +1,19 @@
-import React, { useEffect } from 'react' 
-import { MyConsumer } from './MyContext'
+import React, { useContext } from 'react' 
+import { MyContext } from './MyContext'
 import Game from './Game'
 
 const Team = (props) => {
-    
-    const teamName=(props.match.params.id)
+    const {games} = useContext(MyContext)
+    const teamName=(props.match.params.name)
     console.log(teamName)
 
-    // const filterGames = (games) => {
-    //     console.log("Hi from filterGames")
-    //     const displayGames = games.filter(game => game.home == teamName || game.guest == teamName)
-    //     console.log(displayGames)
-    //     displayGames.map(game => <Game key={game.id} game={game}/>)  
-    //     }
+    const teamGames = games.filter(game => game.home == teamName || game.guest == teamName)
 
-        // useEffect(() => {
-        //     displayGames.map(game => <Game key={game.id} game={game}/>) 
-        // }, [])
-        
-    //console.log(displayGames)
     return(
-        <div>
-            <h4 style={{paddingLeft: "35px", paddingRight: "50px"}}>{teamName}</h4>
-            <MyConsumer>
-                {context => {
-                    <div>
-                        <div onMount={context.filterGames(teamName)}></div>
-                        <div>{context.showGames.map(game => <Game key={game.id} game={game}/>)}</div>
-                    </div>
-                }}
-            </MyConsumer>
-            
-    </div>
+        <div style={{paddingLeft: "35px", paddingRight: "50px"}}>
+            <p style={{color: "white", background: "black"}}>{teamName}</p>       
+            <div>{teamGames.map(game => <Game key={game.id} game={game}/>)}</div>  
+        </div>
     )
 }
 

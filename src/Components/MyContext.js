@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react' 
 
-const MyContext = React.createContext()
+export const MyContext = React.createContext()
 
 const MyProvider = (props) => {
     const [games, setGames] = useState([{}])
@@ -27,14 +27,30 @@ const MyProvider = (props) => {
         console.log("Hi from filterGames")
         const displayGames = games.filter(game => game.home == team || game.guest == team)
         setShowGames(displayGames)
+        console.log(showGames)
         // displayGames.map(game => <Game key={game.id} game={game}/>)  
         }
+
+    const displayAllGames = games
+    const displayUpcomingGames = games.filter(game => game.played != true)
+    // console.log(displayAllGames)
+    // console.log(displayUpcomingGames)
+
+    // const [showAll, setShowAll] = useState(true)
+    // const toggleGames = () => {
+    //     setShowAll(!showAll)
+    //     console.log(showAll)
+    //     //let displayGames = games.filter(game => game.played != true
+        // showAll = "false" ? setGames(displayAllGames) : setGames(displayUpcomingGames)
+   
+    // }
+
     return (
         <MyContext.Provider value={{
-            teams: teams,
             games: games,
-            filterGames: filterGames,
-            showGames: showGames
+            teams: teams,
+            showGames: showGames,
+            // toggleGames: toggleGames,
         }}>
             {props.children}
         </MyContext.Provider>
