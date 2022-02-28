@@ -29,8 +29,7 @@ const Navigation = () => {
       </NavLink> 
       <MyConsumer>
             {context => 
-            <div></div>
-                // <button style={{marginRight: "75px",float: "right"}} onClick={context.toggleGames}>Click Me!</button>
+                 <button style={{marginRight: "75px",float: "right"}} onClick={context.toggleGames}>Click Me!</button>
             }
         </MyConsumer>
     </div>

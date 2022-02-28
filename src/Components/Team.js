@@ -5,7 +5,6 @@ import Game from './Game'
 const Team = (props) => {
     const {games} = useContext(MyContext)
     const teamName=(props.match.params.name)
-    console.log(teamName)
 
     const teamGames = games.filter(game => game.home == teamName || game.guest == teamName)
 

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 const TeamLink = (props) => {
 
+
     const linkStyles = {
         marginRight: "10px",
         color: "white",
