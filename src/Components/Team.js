@@ -25,7 +25,7 @@ const Team = (props) => {
             <MyConsumer>
                 {context => {
                     <div>
-                        <div>{context.filterGames}</div>
+                        <div onMount={context.filterGames(teamName)}></div>
                         <div>{context.showGames.map(game => <Game key={game.id} game={game}/>)}</div>
                     </div>
                 }}

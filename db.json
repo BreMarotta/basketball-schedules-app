@@ -18,9 +18,9 @@
       "location": "Greensburg Central Catholic",
       "date": "November 28, 2021",
       "time": "3:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "73",
+      "guestScore": "54",
+      "played": true
     },
     {
       "id": 2,
@@ -29,9 +29,9 @@
       "location": "Greensburg Central Catholic",
       "date": "November 28, 2021",
       "time": "3:30",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "73",
+      "guestScore": "76",
+      "played": true
     },
     {
       "id": 3,
@@ -593,7 +593,7 @@
       "homeScore": "",
       "guestScore": "",
       "played": false
-    }, 
+    },
     {
       "id": 54,
       "home": "Plum",
