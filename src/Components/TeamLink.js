@@ -11,7 +11,7 @@ const TeamLink = (props) => {
     }
 
     return (
-        <Link to={`/schedule/${props.team}`}>
+        <Link to={`/schedule/${props.id}`}>
             <button style={linkStyles}>{props.team}</button>
         </Link>
     )

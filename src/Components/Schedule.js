@@ -5,16 +5,8 @@ import Game from './Game'
 
 
 function Schedule() {
-    const {games, showAll} = useContext(MyContext)
-    const [teams, setTeams] = useState ([])
+    const {games, showAll, teams} = useContext(MyContext)
 
-    useEffect(() => {
-        fetch('http://localhost:3004/teams')
-        .then(res => res.json())
-        .then(data => {
-            setTeams(data)
-        })
-    }, [])
 
     const displayGames = showAll == true ? games : games.filter(game => game.played != true)
 
@@ -23,7 +15,7 @@ return(
         <br/>
             <div>
                 <div>{teams.map(t => 
-                    <TeamLink key={t.id}team={t.team}/>)}</div>
+                    <TeamLink key={t.id}id={t.id}team={t.team}/>)}</div>
                 <div>{displayGames.map(game =>
                     <Game key={game.id} game={game}/>)}</div>
             </div>

@@ -1,4 +1,106 @@
 {
+  "teams": [
+    {
+      "id": 0,
+      "team": "Connellsville"
+    },
+    {
+      "id": 1,
+      "team": "Derry"
+    },
+    {
+      "id": 2,
+      "team": "Franklin Regional"
+    },
+    {
+      "id": 3,
+      "team": "Hempfield"
+    },
+    {
+      "id": 4,
+      "team": "Indiania"
+    },
+    {
+      "id": 5,
+      "team": "Latrobe"
+    },
+    {
+      "id": 6,
+      "team": "Laurel Highlands"
+    },
+    {
+      "id": 7,
+      "team": "Ligonier Valley"
+    },
+    {
+      "id": 8,
+      "team": "Mount Pleasant"
+    },
+    {
+      "id": 9,
+      "team": "Penn Trafford"
+    },
+    {
+      "id": 10,
+      "team": "Plum"
+    }
+  ],
+  "locations": [
+    {
+      "id": 0,
+      "name": "Centreplex",
+      "address1": "100 Riverside Drive",
+      "address2": "West Newton, PA 15089"
+    },
+    {
+      "id": 1,
+      "name": "Derry Middle School",
+      "address1": "994 N Chestnut Street Ext",
+      "address2": "Derry, PA 15627"
+    },
+    {
+      "id": 2,
+      "name": "Franklin Regional Middle School",
+      "address1": "4660 Old William Penn Hwy",
+      "address2": "Murrysville, PA 15668"
+    },
+    {
+      "id": 3,
+      "name": "Geibel Catholic High School",
+      "address1": "611 East Crawford Ave",
+      "address2": "Connellsville, PA 15425"
+    },
+    {
+      "id": 4,
+      "name": "Greensburg Central Catholic",
+      "address1": "911 Armory Drive",
+      "address2": "Greensburg, PA 15601"
+    },
+    {
+      "id": 5,
+      "name": "Hempfield Field House",
+      "address1": "4345 PA-136",
+      "address2": "Greensburg, PA 15601"
+    },
+    {
+      "id": 6,
+      "name": "Latrobe High School",
+      "address1": "131 High School Rd",
+      "address2": "Latrobe, PA 15650"
+    },
+    {
+      "name": "Laurel Highlands Middle School",
+      "address1": "18-20 Hookton Ave",
+      "address2": "Uniontown, PA 15401",
+      "id": 7
+    },
+    {
+      "name": "Mt. View Elementary School",
+      "address1": "1010 Mountain View Drive",
+      "address2": "Greensburg, PA 15601",
+      "id": 8
+    }
+  ],
   "games": [
     {
       "id": 0,
@@ -945,114 +1047,6 @@
       "homeScore": "",
       "guestScore": "",
       "played": false
-    }
-  ],
-  "teams": [
-    {
-      "id": 0,
-      "team": "Connellsville"
-    },
-    {
-      "id": 1,
-      "team": "Derry"
-    },
-    {
-      "id": 2,
-      "team": "Franklin Regional"
-    },
-    {
-      "id": 3,
-      "team": "Hempfield"
-    },
-    {
-      "id": 4,
-      "team": "Indiania"
-    },
-    {
-      "id": 5,
-      "team": "Latrobe"
-    },
-    {
-      "id": 6,
-      "team": "Laurel Highlands"
-    },
-    {
-      "id": 7,
-      "team": "Ligonier Valley"
-    },
-    {
-      "id": 8,
-      "team": "Mount Pleasant"
-    },
-    {
-      "id": 9,
-      "team": "Penn Trafford"
-    },
-    {
-      "id": 10,
-      "team": "Plum"
-    }
-  ],
-  "locations": [
-    {
-      "id": 0,
-      "name": "Centreplex",
-      "address1": "100 Riverside Drive",
-      "address2": "West Newton, PA 15089"
-    },
-    {
-      "id": 1,
-      "name": "Derry Middle School",
-      "address1": "994 N Chestnut Street Ext",
-      "address2": "Derry, PA 15627"
-    },
-    {
-      "id": 2,
-      "name": "Franklin Regional Middle School",
-      "address1": "4660 Old William Penn Hwy",
-      "address2": "Murrysville, PA 15668"
-    },
-    {
-      "id": 3,
-      "name": "Geibel Catholic High School",
-      "address1": "611 East Crawford Ave",
-      "address2": "Connellsville, PA 15425"
-    },
-    {
-      "id": 4,
-      "name": "Greensburg Central Catholic",
-      "address1": "911 Armory Drive",
-      "address2": "Greensburg, PA 15601"
-    },
-    {
-      "id": 5,
-      "name": "Hempfield Field House",
-      "address1": "4345 PA-136",
-      "address2": "Greensburg, PA 15601"
-    },
-    {
-      "id": 6,
-      "name": "Latrobe High School",
-      "address1": "131 High School Rd",
-      "address2": "Latrobe, PA 15650"
-    },
-    {
-      "name": "Laurel Highlands Middle School",
-      "address1": "18-20 Hookton Ave",
-      "address2": "Uniontown, PA 15401",
-      "id": 7
-    },
-    {
-      "name": "Mt. View Elementary School",
-      "address1": "1010 Mountain View Drive",
-      "address2": "Greensburg, PA 15601",
-      "id": 8
-    },
-    {
-      "name": "Breanne Marotta",
-      "address1": "508 Hemlock Street",
-      "address2": "dfglianfdv",
-      "id": 9
     }
   ]
 }

@@ -19,7 +19,7 @@ function App() {
           <Route exact path="/locations" component={Location}/>
           <Route exact path="/schedule" component={Schedule}/>
           <Route exact path="/location/new" component={NewLocationForm} />
-          <Route path="/schedule/:name" component={Team}/>
+          <Route path="/schedule/:id" component={Team}/>
         </Switch>
       </div>
     </Router>
