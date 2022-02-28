@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { NavLink } from "react-router-dom";
-import { MyConsumer } from './MyContext'
+import { MyContext } from './MyContext'
 
 const Navigation = () => {
+  const {toggleGames, showAll} = useContext(MyContext)
     const linkStyles = {
         marginLeft: "15px",
         color: "gray"
@@ -27,11 +28,12 @@ const Navigation = () => {
       <NavLink style={linkStyles} activeStyle={{color: "white"}}to="/schedule">
         Full Schedule
       </NavLink> 
-      <MyConsumer>
-            {context => 
-                 <button style={{marginRight: "75px",float: "right"}} onClick={context.toggleGames}>Click Me!</button>
-            }
-        </MyConsumer>
+      <div style={{marginRight: "75px",float: "right"}} >
+        <a>Show: </a>
+        <button onClick={toggleGames}>{showAll ? "Upcoming Games" : "All Games"}</button>
+      </div>
+      
+
     </div>
     )
 }

@@ -11,16 +11,6 @@ const MyProvider = (props) => {
         .then(data => setGames(data))
     }, [])
 
-    // const [teams, setTeams] = useState ([])
-
-    // useEffect(() => {
-    //     fetch('http://localhost:3004/teams')
-    //     .then(res => res.json())
-    //     .then(data => {
-    //         setTeams(data)
-    //     })
-    // }, [])
-
     const [showAll, setShowAll] = useState(true)
     const toggleGames = () => {
         setShowAll(!showAll)
@@ -30,7 +20,6 @@ const MyProvider = (props) => {
     return (
         <MyContext.Provider value={{
             games: games,
-            // teams: teams,
             toggleGames: toggleGames,
             showAll: showAll,
         }}>

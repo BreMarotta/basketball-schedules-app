@@ -62,9 +62,9 @@
       "location": "Centreplex",
       "date": "December 4, 2021",
       "time": "5:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "73",
+      "guestScore": "54",
+      "played": true
     },
     {
       "id": 6,
