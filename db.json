@@ -412,9 +412,9 @@
       "location": "Derry Middle School",
       "date": "December 19, 2021",
       "time": "2:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "44",
+      "guestScore": "32",
+      "played": true
     },
     {
       "id": 28,
