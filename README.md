@@ -6,12 +6,12 @@ This webpage is an interactive schedule for a local elementary basketball league
 
 This year, my child played travel basketball for the first time. Throughout the season, the parents were consistently annoyed with the layout of the league's website. It appears to be written in simple html with no formatting. Because of this, navigating the page and finding needed information required scrolling through everything and hoping not to miss any important information. 
 
-This page is designed with parents in mind. It is set up to locate the necessary information easily and intuitively. It uses client-side routing to navigate through the page in a logical manner.
+This project build is designed with coaches and parents in mind. It is set up to locate necessary information easily and intuitively. It uses client-side routing to navigate through the page in a logical manner.
 
 ## Getting Started
 The data for the league is stored in db.json. To access this data, the user will need to use a JSON server. To start the server, run `npm run server` in the terminal.
 
-Next, the start the actual page, run `npm start` in a new terminal.
+Next, to start the actual page, run `npm start` in a new terminal.
 
 ## Features
 The user can:
@@ -19,6 +19,7 @@ The user can:
 * view the league information and rules **"/"**
 
 * view the location information **"/locations"** 
+
 
 * add new locations on the new location form  **"/locations/new"**
 
@@ -32,7 +33,5 @@ The user can:
 
 
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 

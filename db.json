@@ -99,12 +99,6 @@
       "address1": "1010 Mountain View Drive",
       "address2": "Greensburg, PA 15601",
       "id": 8
-    },
-    {
-      "name": "Mt. Pleasant High School",
-      "address1": "State Street",
-      "address2": "Mount Pleasant, PA 15666",
-      "id": 9
     }
   ],
   "games": [
@@ -116,7 +110,7 @@
       "date": "November 28, 2021",
       "time": "2:30",
       "homeScore": "32",
-      "guestScore": "76",
+      "guestScore": "17",
       "played": true
     },
     {
@@ -126,8 +120,8 @@
       "location": "Greensburg Central Catholic",
       "date": "November 28, 2021",
       "time": "3:00",
-      "homeScore": "73",
-      "guestScore": "54",
+      "homeScore": "23",
+      "guestScore": "14",
       "played": true
     },
     {
@@ -137,9 +131,9 @@
       "location": "Greensburg Central Catholic",
       "date": "November 28, 2021",
       "time": "3:30",
-      "homeScore": "73",
-      "guestScore": "76",
-      "played": true
+      "homeScore": "",
+      "guestScore": "",
+      "played": false
     },
     {
       "id": 3,
@@ -423,9 +417,9 @@
       "location": "Latrobe High School",
       "date": "December 19, 2021",
       "time": "5:30",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "32",
+      "guestScore": "32",
+      "played": true
     },
     {
       "id": 29,
@@ -434,9 +428,9 @@
       "location": "Centreplex",
       "date": "December 19, 2021",
       "time": "6:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "32",
+      "guestScore": "14",
+      "played": true
     },
     {
       "id": 30,
