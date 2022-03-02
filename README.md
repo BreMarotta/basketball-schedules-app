@@ -32,6 +32,13 @@ The user can:
 * toggle between viewing the entire schedule or just viewing unplayed games **"/schedule"** and **"/schedule/:id"**
 
 
+## Additional Information:
+
+Please check the YouTube walk through video to see the SPA features:
+[Link] (https://youtu.be/lLg_VcfhpIU)
+Also check out my blog about this project:
+[Link] (https://medium.com/@bremarotta/my-react-project-a-basketball-schedule-spa-4f9226552548)
+
 
 
 

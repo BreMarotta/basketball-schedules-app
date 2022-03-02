@@ -3,7 +3,7 @@ import { MyContext } from './MyContext'
 
 function Game(props) {
     const playedStatus = props.game.played === false ? "" : "hidden"
-    const backgroundColor = props.game.played === false ? "whitesmoke" : "#DCDCDC"
+    const backgroundColor = props.game.played === false ? "whitesmoke" : "#5F9EA0"
     const teamPage = props.style ? "none" : ""
     
     const [scores, setScores] = useState({

@@ -99,6 +99,12 @@
       "address1": "1010 Mountain View Drive",
       "address2": "Greensburg, PA 15601",
       "id": 8
+    },
+    {
+      "name": "Mount Pleasant High School",
+      "address1": "101 State Street",
+      "address2": "Mount Pleasant, PA 15666",
+      "id": 9
     }
   ],
   "games": [
@@ -110,7 +116,7 @@
       "date": "November 28, 2021",
       "time": "2:30",
       "homeScore": "32",
-      "guestScore": "17",
+      "guestScore": "54",
       "played": true
     },
     {
@@ -120,8 +126,8 @@
       "location": "Greensburg Central Catholic",
       "date": "November 28, 2021",
       "time": "3:00",
-      "homeScore": "23",
-      "guestScore": "14",
+      "homeScore": "GAME CANCELLED!",
+      "guestScore": "",
       "played": true
     },
     {
