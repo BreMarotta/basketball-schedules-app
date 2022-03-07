@@ -1,10 +1,9 @@
-import React, { useState } from "react"
+import React, { useState, useContext } from "react"
 import { MyContext } from './MyContext'
 
 function Game(props) {
-    const playedStatus = props.game.played === false ? "" : "hidden"
-    const backgroundColor = props.game.played === false ? "whitesmoke" : "#5F9EA0"
-    const teamPage = props.style ? "none" : ""
+    //const {setGames} = useContext(MyContext)
+
     
     const [scores, setScores] = useState({
         homeScore: "",
@@ -20,11 +19,11 @@ function Game(props) {
 
     const handleChange = (e) => {
         console.log(scores)
-        setScores({
-            ...scores, 
+        setScores((previousScores) => ({
+            ...previousScores, 
             [e.target.name]: e.target.value,
             played: true
-        })
+        }))
     }
 
     const handleSubmit = (e) => {
@@ -42,9 +41,14 @@ function Game(props) {
         };
         fetch(`http://localhost:3004/games/${e.target.name}`, configurationObject)
         .then(res => res.json())
-        .then(window.location.reload(true))
+        .then(data => {
+            props.updateGameScore(data)
+            toggleForm()})
     }
-
+    const playedStatus = props.game.played === false ? "" : "hidden"
+    const backgroundColor = props.game.played === false ? "whitesmoke" : "#5F9EA0"
+    const teamPage = props.style ? "none" : ""
+    
 return(
     <div style={{background: backgroundColor, paddingTop: "1.5px"}}>
     <h3 style={{marginLeft: "5px"}}>{props.game.guest} {props.game.guestScore} @ {props.game.home} {props.game.homeScore}</h3>
@@ -65,3 +69,4 @@ return(
 )
 }
 export default Game
+

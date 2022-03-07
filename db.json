@@ -116,7 +116,7 @@
       "date": "November 28, 2021",
       "time": "2:30",
       "homeScore": "32",
-      "guestScore": "54",
+      "guestScore": "76",
       "played": true
     },
     {
@@ -137,9 +137,9 @@
       "location": "Greensburg Central Catholic",
       "date": "November 28, 2021",
       "time": "3:30",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "15",
+      "guestScore": "17",
+      "played": true
     },
     {
       "id": 3,
@@ -456,9 +456,9 @@
       "location": "Centreplex",
       "date": "December 19, 2021",
       "time": "8:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "32",
+      "guestScore": "76",
+      "played": true
     },
     {
       "id": 32,
@@ -467,9 +467,9 @@
       "location": "Hempfield Field House",
       "date": "December 20, 2021",
       "time": "7:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "32",
+      "guestScore": "76",
+      "played": true
     },
     {
       "id": 33,
@@ -478,9 +478,9 @@
       "location": "Hempfield Field House",
       "date": "December 20, 2021",
       "time": "8:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "32",
+      "guestScore": "76",
+      "played": true
     },
     {
       "id": 34,
@@ -489,9 +489,9 @@
       "location": "Greensburg Central Catholic",
       "date": "January 8, 2022",
       "time": "2:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "12",
+      "guestScore": "32",
+      "played": true
     },
     {
       "id": 35,
@@ -500,9 +500,9 @@
       "location": "Greensburg Central Catholic",
       "date": "January 8, 2022",
       "time": "4:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "44",
+      "guestScore": "16",
+      "played": true
     },
     {
       "id": 36,
@@ -511,9 +511,9 @@
       "location": "Laurel Highlands Middle School",
       "date": "January 8, 2022",
       "time": "4:00",
-      "homeScore": "",
-      "guestScore": "",
-      "played": false
+      "homeScore": "32",
+      "guestScore": "17",
+      "played": true
     },
     {
       "id": 37,

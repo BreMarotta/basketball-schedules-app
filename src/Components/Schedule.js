@@ -5,7 +5,12 @@ import Game from './Game'
 
 
 function Schedule() {
-    const {games, showAll, teams} = useContext(MyContext)
+    const {games, showAll, teams, setGames} = useContext(MyContext)
+
+    const updateGameScore = (game) => {
+        const newGame = games.map(g => g.id == game.id ? game : g)
+        setGames(newGame)
+    }
 
 
     const displayGames = showAll == true ? games : games.filter(game => game.played != true)
@@ -17,7 +22,7 @@ return(
                 <div>{teams.map(t => 
                     <TeamLink key={t.id}id={t.id}team={t.team}/>)}</div>
                 <div>{displayGames.map(game =>
-                    <Game key={game.id} game={game}/>)}</div>
+                    <Game key={game.id} game={game} updateGameScore={updateGameScore}/>)}</div>
             </div>
 
     </div>

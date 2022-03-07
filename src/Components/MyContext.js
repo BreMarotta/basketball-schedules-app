@@ -31,7 +31,8 @@ const MyProvider = (props) => {
             games: games,
             toggleGames: toggleGames,
             showAll: showAll,
-            teams: teams
+            teams: teams,
+            setGames: setGames
         }}>
             {props.children}
         </MyContext.Provider>
